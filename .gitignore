@@ -20,3 +20,13 @@ build.ninja
 # pytorch_lightning
 logs/
 lightning_logs/
+
+# model checkpoints / pretrained weights (large binaries; download separately)
+checkpoints/
+pretrained_models/
+*.ckpt
+*.pth
+
+# generated qualitative inference results (regenerable output)
+qual_results/
+qual_results_darkzurich/
